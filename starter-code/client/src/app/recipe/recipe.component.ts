@@ -9,6 +9,7 @@ import { DishesService } from '../services/dishes.service';
 })
 export class RecipeComponent implements OnInit {
   recipe;
+  
 
   constructor(
     private router: Router,
