@@ -1,0 +1,11 @@
+
+<h1>Dishes list</h1>
+
+<div class="container">
+  <div *ngFor="let dish of dishes">
+    <h3>{{ dish.name }}</h3>
+    <img src="{{ dish.image }}" class="image"/>
+    <button [routerLink]="['/api/dishes', dish._id ]">Recipe Detail </button>
+  </div>
+
+</div>

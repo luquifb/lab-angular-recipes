@@ -1,0 +1,12 @@
+
+<h2>Recipe details</h2>
+
+<div class="container">
+
+    <h3>{{ recipe.name }}</h3>
+    <img src="{{ recipe.image }}" class="image"/>
+    <p>{{ recipe.description }}</p>
+
+    <button [routerLink]="['/api/dishes']" class="btn">Back to dishes list </button>
+
+</div>

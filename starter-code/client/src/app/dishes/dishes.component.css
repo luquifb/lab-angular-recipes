@@ -1,0 +1,19 @@
+.image {
+  width: 200px;
+  height: 200px;
+}
+
+.container {
+  margin: 20px;
+  padding: 10px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  height: 50px;
+  width: 100px;
+  border: none;
+
+}
